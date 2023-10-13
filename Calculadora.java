@@ -1,7 +1,7 @@
-public class Calculadora
+public class Calculadora extends Coso
 {
-	int val1;
-	int val2;
+	private int val1;
+	private int val2;
 	
 	Calculadora()
 	{
@@ -11,6 +11,7 @@ public class Calculadora
 	
 	Calculadora(int val1, int val2)
 	{
+		super(5,"juan","rojo","cuadrado");
 		this.val1 = val1;
 		this.val2 = val2;
 	}
@@ -36,4 +37,23 @@ public class Calculadora
 		System.out.println(resultado);
 	}
 	
+	public void setVal1(int val1)
+	{
+		this.val1=val1;
+	}
+
+	public void setVal2(int val2)
+	{
+		this.val2=val2;
+	}
+
+	public int getVal1()
+	{
+		return this.val1;
+	}
+
+	public int getVal2()
+	{
+		return this.val2;
+	}
 }

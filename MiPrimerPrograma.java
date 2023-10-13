@@ -7,5 +7,7 @@ public class MiPrimerPrograma
 		System.out.println(kadio.sumar(10,2020));
 		kadio.dividir();
 		kadio.restar(5,3);
+		kadio.golpear();
+		System.out.println(kadio.getNombre());
 	}
 }
